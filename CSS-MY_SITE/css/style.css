@@ -1,0 +1,71 @@
+body{
+    background-color: #e0ebe8;
+    color:#45b29a;
+    margin:0px;
+    text-align: center;
+}
+h1{
+    padding-top: 30px;
+    margin-top:0px ;
+    margin-left:40px ;
+    margin-bottom: 5px;
+    font-family: 'Castoro Titling',cursive;
+    
+}
+p{
+    margin-left:40px;
+    padding-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+.top-container{
+    position: relative;
+    background-color:#e0ebe8;
+    padding:20px;
+    padding-bottom: 0%;
+}
+.upper_cloud{
+    position: absolute;
+    /* right: 20%; */
+    left: 70%;
+    top: 20%;
+}
+.lower_cloud{
+    position: absolute;
+    left: 20%;
+    /* right: 60%; */
+}
+.land{
+    position: relative;
+    margin-bottom: 0;
+}
+.profilephoto{
+    position: relative;
+    height: 200px;
+    margin:auto  ;
+}
+.middle-container{
+    background-color: #e0ebe8;
+    padding: 60px;
+}
+.bottom-container{
+    background-color: #e0ebe8;
+}
+.end-container{
+    background-color: #e0ebe8;
+}
+.last-container{
+    background-color: #e0ebe8;
+}
+.getintouch{
+    background-color: #e0ebe8;
+}
+hr{
+    background-color:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:none;
+    border-top:6px dotted rgb(15, 0, 0);
+    height:5px;
+    width:8%;
+
+}
