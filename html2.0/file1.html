@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 200px;;
+            margin: 10px;
+        }
+        table,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prallav Aggarwal</h1>
+    <img src="/assets/profile_image01.jpg" alt="profile_image" >
+    <h2>About</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore quas incidunt provident magnam reprehenderit tenetur voluptatum odio necessitatibus sapiente porro? Alias, at rem nulla provident libero, sit, excepturi porro harum aliquid voluptatum ad. Voluptas error, aspernatur suscipit, debitis nostrum illum ab, incidunt iste autem accusamus accusantium sed labore! Eveniet, consectetur.</p>
+    <h2>links</h2>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/prallav-aggarwal-8a5168221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedIn</a></li>
+        <li><a href="https://leetcode.com/u/prallav/">leetcode</a></li>
+        <li><a href="https://github.com/PrallavAggarwal">github</a></li>
+    </ul>
+    <form action="">
+        <label for="username">Username</label><br>
+        <input type="text" name="username">
+        <br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email">
+        <br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password">
+        <br>
+        <label for="button">Click</label><br>
+        <input type="submit" name="button" value="button">
+    </form>
+    <br>
+    <hr>
+    <br>
+    <table>
+        <!-- <colgroup>
+        <col span="2" style="background-color: aqua;">
+        </colgroup> -->
+        <thead>
+            <!-- <colgroup>
+                <col span="2" style="background-color: aqua;">
+                </colgroup> -->
+            <tr>
+            <th>col1</th>
+            <th>col2</th>
+            <th colspan="2">col3</th>
+            </tr>
+            <tr>
+                <th>col1</th>
+                <th>col2</th>
+                <th>col3</th>
+                </tr>
+        </thead>
+        <tbody>
+            <!-- <colgroup>
+                <col span="2" style="background-color: aqua;">
+                </colgroup> -->
+            <tr>
+            <td>cell1</td>
+            <td colspan="2" rowspan="2"><img src="/assets/beer.svg" alt="" id="insideTable"></td>
+            <!-- <td>cell3</td> -->
+            <td >cell4</td>
+            </tr>
+            <tr>
+                <td>cell5</td>
+                <!-- <td colspan="2">cell6</td> -->
+                <!-- <td>cell7</td> -->
+                <td >cell8</td>
+            </tr>
+            <tr>
+                <td>cell9</td>
+                <td>cell10</td>
+                <td>cell11</td>
+                <td>cell12</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <colgroup>
+                <col span="2" style="background-color: aqua;">
+                </colgroup>
+            <tr>
+                <td>foot1</td>
+                <td>foot2</td>
+                <td>foot3</td>
+                <td>foot4</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html> 

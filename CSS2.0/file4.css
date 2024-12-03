@@ -1,0 +1,19 @@
+/* Selectors */
+/* simple selectors
+pseduo class selectors
+combinator selectors
+universal selectors */
+nav{
+    border: 2px solid black;
+}
+/* It selects all the tags under all section tags */
+section * {
+    color: rgb(14, 17, 64);
+}
+a[href]{
+    color: rgb(33, 240, 255);
+}
+section:hover{
+    background-color: grey;
+}
+footer::after

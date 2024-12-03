@@ -1,0 +1,17 @@
+.box{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(red,pink);
+    background-image: linear-gradient(to right, pink, red, orange, brown, violet);
+    background-image: linear-gradient(to left, pink, red);
+    background-image: linear-gradient(to bottom right, red, pink);
+    background-image: linear-gradient(70deg, red, pink);
+    background-image: linear-gradient(70deg, #00000096, rgba(151, 32, 114, 0.622));
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    background-image: radial-gradient(red, pink);
+}

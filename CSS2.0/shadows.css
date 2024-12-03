@@ -1,0 +1,13 @@
+h1{
+    text-shadow: 1px 1px red;
+    text-shadow: 3px 3px 2px grey;
+    text-shadow: 3px 3px 2px grey, 6px 6px 3px sandybrown;
+}
+.box{
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    box-shadow: 1px 1px ;
+    box-shadow: 7px 7px black, 13px 13px brown ;
+    box-shadow: -3px 0px, 3px 0px, 0px 3px, 0px -3px;
+}

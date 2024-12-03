@@ -6,22 +6,45 @@ body{
 }
 h1{
     padding-top: 30px;
-    margin-top:0px ;
+    margin: 50px auto 0 auto;
+    /* margin-top:0px ;
     margin-left:40px ;
-    margin-bottom: 5px;
+    margin-bottom: 5px; */
     font-family: 'Castoro Titling',cursive;
-    
+    line-height: 2;
 }
-p{
-    margin-left:40px;
+h2{
+    /* margin-left:40px; */
+    margin:0 auto 0 auto ;
     padding-bottom: 20px;
     font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+}
+h3{
+    margin: 40px auto 30px auto;
+}
+p{
+    margin-bottom:40px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Roboto Mono', monospace;
+}
+hr{
+    background-color:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:none;
+    border-top:6px dotted rgb(15, 0, 0);
+    height:5px;
+    width:8%;
+
 }
 .top-container{
     position: relative;
     background-color:#e0ebe8;
     padding:20px;
-    padding-bottom: 0%;
+    padding-bottom: 30px;
 }
 .upper_cloud{
     position: absolute;
@@ -45,7 +68,10 @@ p{
 }
 .middle-container{
     background-color: #e0ebe8;
-    padding: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    /* padding-left: 60px; */
 }
 .bottom-container{
     background-color: #e0ebe8;
@@ -59,13 +85,6 @@ p{
 .getintouch{
     background-color: #e0ebe8;
 }
-hr{
-    background-color:none;
-    border-left:none;
-    border-right:none;
-    border-bottom:none;
-    border-top:6px dotted rgb(15, 0, 0);
-    height:5px;
-    width:8%;
-
+.contact{
+    color:#45b29a ;
 }
